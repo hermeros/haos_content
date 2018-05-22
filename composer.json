@@ -2,10 +2,15 @@
     "name": "hermeros/haos_content",
     "description": "CMS articles and categories functionality",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Plugins\\Content\\": "plugins/haos_content/src/"
+        }
+    },
     "authors": [
         {
-            "name": "Bartek Romejko",
-            "email": "themocow666@gmail.com"
+            "name": "Bartłomiej Romejko",
+            "email": "themoscow666@gmail.com"
         }
     ],
     "minimum-stability": "stable",
