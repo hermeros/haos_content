@@ -9,13 +9,8 @@
         }
     ],
     "minimum-stability": "stable",
-    "type": "laravel-library",
+    "type": "hermeros-components",
     "require": {
         "composer/installers": "~1.0"
-    },
-    "extra": {
-        "installer-paths": {
-            "components": ["vendor:hermeros"]
-        }
     }
 }
