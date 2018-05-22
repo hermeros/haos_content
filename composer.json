@@ -9,7 +9,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "type": "hermeros-components",
+    "type": "vanilla-plugin",
     "require": {
         "composer/installers": "~1.0"
     }
