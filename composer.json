@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Plugins\\Content\\": "plugins/haos_content/src/"
+            "Plugins\\Content\\": "src/"
         }
     },
     "authors": [
@@ -17,5 +17,10 @@
     "type": "vanilla-plugin",
     "require": {
         "composer/installers": "~1.0"
+    },
+    "extra": {
+        "laravel": [
+            "Plugins\\Content\\HaosServiceProvider"
+        ]
     }
 }
