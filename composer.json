@@ -1,0 +1,13 @@
+{
+    "name": "hermeros/haos_content",
+    "description": "CMS articles and categories functionality",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bartek Romejko",
+            "email": "themocow666@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
